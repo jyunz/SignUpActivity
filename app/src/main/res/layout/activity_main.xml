@@ -42,4 +42,8 @@
 <!--        android:imeOptions="actionSearch"-->
 <!--         엔터키의 변경에 관한 옵션            -->
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"/>
 </LinearLayout>
