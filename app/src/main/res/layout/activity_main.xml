@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="아이디"/>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일을 입력하세요"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="비밀번호"/>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="8글자 이상 입력"
@@ -34,13 +34,18 @@
         android:layout_height="wrap_content"
         android:text="닉네임"/>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="한 줄로 입력"
         android:singleLine="true"/>
 <!--        android:imeOptions="actionSearch"-->
 <!--         엔터키의 변경에 관한 옵션            -->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="이용약관 동의"/>
 
     <Button
         android:layout_width="match_parent"
